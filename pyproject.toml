@@ -1,0 +1,12 @@
+[project]
+name = "custom-model-tooling-experiments"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-ollama>=0.3.6",
+    "langgraph>=0.5.4",
+    "mcp[cli]>=1.12.2",
+]
